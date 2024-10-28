@@ -14,16 +14,16 @@
         <div class="logo">
                 <img src="images/logofinal.png" class="logo-img">
         </div>
-        <a href="BarolaCamilleindex.html">Home</a>
-        <a href="BarolaCamilleindex.html">About</a>
+        <a href="BarolaCamilleindex.php">Home</a>
+        <a href="BarolaCamilleindex.php #about">About</a>
         
         <div class="dropdown">
             <button class="dropbtn">Products</button>
             <div class="dropdown-content">
-                <a href="countour.html">Contour</a>
-                <a href="mascara.html">Mascara</a>
-                <a href="foundation.html">Foundation</a>
-                <a href="lipstick.html">Lipstick</a>
+                <a href="countour.php">Contour</a>
+                <a href="mascara.php">Mascara</a>
+                <a href="foundation.php">Foundation</a>
+                <a href="lipstick.php">Lipstick</a>
             </div>
         </div>
         
@@ -66,7 +66,7 @@
     window.onclick = function(event) {
         if (event.target === signInModal) {
             signInModal.style.display = 'none';
-            window.location.href = 'BarolaCamilleindex.html'; 
+            window.location.href = 'BarolaCamilleindex.php'; 
         }
     };
 
@@ -76,37 +76,5 @@
         signInForm.submit();  // Let the form submit
     };
 </script>
-
-
-<!-- <script>
-            for experimentaion only by the the index creator user_name :Xamilla
-    const signInModal = document.getElementById('signInModal');
-    const signInClose = document.getElementById('signInClose');
-    const signInForm = document.getElementById('signInForm');
- 
-
-    signInClose.onclick = function() {
-        signInModal.style.display = 'none';
-        // Redirect  closed
-        window.location.href = 'BarolaCamilleindex.html'; 
-    }
-
-    // Close clicked outside and redirect
-    window.onclick = function(event) {
-        if (event.target === signInModal) {
-            signInModal.style.display = 'none';
-            // Redirect closed
-            window.location.href = 'BarolaCamilleindex.html'; 
-        }
-    }
-
-    // Redirect  login page
-    signInForm.onsubmit = function(event) {
-        event.preventDefault(); 
-        // Redirect to the login page 
-        window.location.href = 'login.html'; 
-    }
-</script> -->
-
 </body>
 </html>

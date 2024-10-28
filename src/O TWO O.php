@@ -9,20 +9,20 @@
     <title>Beauty Blender & Brushes Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="style/lipstick&lipgloss.css" media="screen" rel="stylesheet" content="text/css">
+    <link href="style/makeupMascara.css" media="screen" rel="stylesheet" content="text/css">
 </head>
 <body>
 <div class="navbar">
     <div class="logo">O Two O</div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Products</a>
             <div class="dropdown-content">
-			    <a href="Sambayon.html">Lipstickr</a>
-                <a href="h.html">Hanke & Henry</a>
-                <a href="o.html">O Two O</a>
-                <a href="s.html">Sace Lady</a>
+			    <a href="Sambayon.php">Mascara</a>
+                <a href="MAC  Cosmetics.php">MAC Cosmetic</a>
+                <a href="O TWO O.php">O TWO</a>
+                <a href="Maybelline.php">Maybelline</a>
             </div>
         </div>
     </div>
@@ -39,59 +39,66 @@
 <div id="products" class="container">
     <div class="products">
         <div class="product">
-            <img src="images/olip1.jpg" alt="Palette 1">
-            <h3>Misty Kiss Lock Color Matte Lipstick</h3>
-            <p>Misty lock-in color, long-lasting allure. With a velvety mist texture, it is smooth and rich without drying out, creating a stunning effect with a single stroke. </p>
+            <img src="images/ot1.jpg" alt="Palette 1">
+            <h3>Maybelline New York Lash Sensational Sky High Washable Eyelash Mascara Makeup</h3>
+            <p>Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Very Black, 7.2 ml. </p>
             <div class="price">₱350.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/olip2.jpg" alt="Palette 1">
-            <h3>Ultra Stay Lolepop Lipstick</h3>
-            <p>Matte lipstick long lasting waterproof lipstick, non-stick cup, lightweight formula, lasts for hours on lips.</p>
+            <img src="images/OT9.jpg" alt="Palette 1">
+            <h3>O.TWO.O Gold Embroidery Mascara</h3>
+            <p>Eyeliner Pen Lasting Waterproof Long Classic Black Easy to Wear Eye Makeup.</p>
             <div class="price">₱300.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/olip3.jpg" alt="Contour 1">
-            <h3>Velvet Matte Liquid Lipstick Copper Packing</h3>
-            <p>Plush and High Pigmented Formula- Soft Matte Lip Cream- Comfortable Long Lasting Liquid Lipstick</p>
+            <img src="images/ot3.jpg" alt="Contour 1">
+            <h3>O.TWO.O Liquid Eyelinerss Waterproof</h3>
+            <p>Precise and Quick Drying with an Ultra-fine Brush 9084.</p>
             <div class="price">₱139.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/olip4.jpg" alt="Blush 2">
-            <h3>Misty Cream Velvet Lip Mud </h3>
-            <p>Soft and supple, velvety mist feeling, one swipe to enjoy the silky smooth and soft</p>
+            <img src="images/ot4.jpg" alt="Blush 2">
+            <h3>Misty Cream Velvet eyeliner Mud </h3>
+            <p>Eye Liner Pen 4 Colors 1.0mm Ultra-fine Smooth Waterproof White K4.</p>
             <div class="price">₱150.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/olip5.jpg" alt="Blush & Contour 3">
-            <h3>Haute Hydrating Vinyl Lip Gloss</h3>
-            <p>Highly saturated and long-lasting factors are carefully researched to lock in the base color and retain the high definition, sweet and tender color.</p>
+            <img src="images/ot5.jpg" alt="Blush & Contour 3">
+            <h3>O TWO O Lash Infused With Fibers</h3>
+            <p>Sensational Sky High Mascara Waterproof O.24oz For Long Full Lashes.</p>
             <div class="price">₱250.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/olip6.jpg" alt="palette 3">
-            <h3>Pro-blur Airy Velvet Matte Lip Tint Lipstick </h3>
-            <p>Excellent Blur Matte effect breaks the ordinary velvet matte finish, new Airy-lip Sensation, still mellow pigmented and long-lasting! Will soon lead the trend of blur tint</p>
+            <img src="images/ot6.jpg" alt="palette 3">
+            <h3>Pro-blur Airy Velvet Matte eyeliner</h3>
+            <p>Excellent Blur Matte effect breaks the ordinary velvet matte finish, new Airy-eye Sensation, still mellow pigmented and long-lasting! Will soon lead the trend of blur tint</p>
             <div class="price">₱370.00</div>
             <button>Add to Cart</button>
         </div>
         <!-- Added Products  kay para di boring bitch-->
         <div class="product">
-            <img src="images/olip7.jpg" alt="Makeup Brush 4">
-            <h3>2in1 Lipstick & Lipstick</h3>
-            <p>Combined the lipstick with lip gloss, A highly pigmented, Long lasting lipstick with a velvety-matte finish</p>
+            <img src="images/ot7.jpg" alt="Makeup Brush 4">
+            <h3>O TWO O Hyperlight Eyeliner</h3>
+            <p> A highly pigmented, Long lasting eyeliner with a velvety-matte finish</p>
             <div class="price">₱155.00</div>
             <button>Add to Cart</button>
     </div>
+    <div class="product">
+        <img src="images/OT8.jpg" alt="Makeup Brush 4">
+        <h3>O TWO O Hypercurl Mascara</h3>
+        <p>Combined the lipstick with lip gloss, A highly pigmented, Long lasting lipstick with a velvety-matte finish</p>
+        <div class="price">₱155.00</div>
+        <button>Add to Cart</button>
+</div>
 </div>
 
 <div class="footer">
-    <p>&copy; Disney-prinsesa Razel Mae</p>
+    <p>&copy; Disney-prinsesa Joymay</p>
 </div>
 
 </body>

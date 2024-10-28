@@ -1,3 +1,15 @@
+<?php
+// Start the session
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION['email'])) {
+    // Redirect to the login page if not logged in
+    header('Location: Login.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,17 +27,21 @@
 <div class="navbar">
     <div class="logo">Lipstick</div>
     <div class="navbar-links">
-        <a href="index.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
-            <a href="#products" class="dropbtn">Products</a>
+        <a href="#products" class="dropbtn">Products</a>
             <div class="dropdown-content">
-                <a href="lipstick&lipgloss.html">Lipstick</a>
-                <a href="h.html">Hanke & Henry</a>
-                <a href="o.html">O Two O</a>
-                <a href="s.html">Sace Lady</a>
-               
+                <?php if (isset($_SESSION['email'])): ?>
+                    <a href="DizonRacelMae.php">Contour</a>
+                    <a href="JoymayAnneLador.php">Mascara</a>
+                    <a href="BarolaSamantha.php">Foundation</a>
+                    <a href="Sambayon.php">Lipstick</a>
+                <?php else: ?>
+                    <p>Please log in to view products.</p>
+                <?php endif; ?>
             </div>
-        </div>
+</div>
+
     </div>
     <div class="navbar-actions">
         <form class="search-form" action="#" method="get">

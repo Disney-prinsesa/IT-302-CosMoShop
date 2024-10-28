@@ -13,16 +13,16 @@
 </head>
 <body>
 <div class="navbar">
-    <div class="logo">Maybelline</div>
+    <div class="logo">MAC Cosmetic</div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Products</a>
             <div class="dropdown-content">
-			    <a href="JoymayAnneLador.html">Mascara</a>
-                <a href="MAC  Cosmetics.html">MAC Cosmetic</a>
-                <a href="O TWO O.html">O TWO</a>
-                <a href="Maybelline.html">Maybelline</a>
+			    <a href="JoymayAnneLador.php">Mascara</a>
+                <a href="MAC  Cosmetics.php">MAC Cosmetic</a>
+                <a href="O TWO O.php">O TWO</a>
+                <a href="Maybelline.php">Maybelline</a>
             </div>
         </div>
     </div>
@@ -39,66 +39,82 @@
 <div id="products" class="container">
     <div class="products">
         <div class="product">
-            <img src="images/may-1.jpg" alt="Palette 1">
-            <h3>Lash Sensational Sky High Mascarak</h3>
-            <p>Lash Sensational Sky High Volumising and Lengthening Mascara - Cosmic Black 7.2ml. </p>
-            <div class="price">₱290.00</div>
+            <img src="images/mac9.jpg" alt="Palette 1">
+            <h3>M·A·CStack Mascara
+                12.00 KWD - 12.25 KWD</h3>
+            <p>VOLUMIZING, CLUMP-RESISTANT, STACKABLE
+                Black Stack - Superstack Mega Brush. </p>
+            <div class="price">₱350.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/may2.jpg" alt="Palette 1">
-            <h3>Maybelline Lash Sensational Sky High Mascara </h3>
-            <p> Mascara Waterproof 6 mL - Smudge-proof Long Lasting Make Up.</p>
+            <img src="images/mac2.jpg" alt="Palette 1">
+            <h3>MACSTACK MASCARA
+                13.50 KWD</h3>
+            <p>Natural To Next-Level Volume, Clump-Resistant, Special Edition
+                BLACK STACK.</p>
             <div class="price">₱300.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/may3.jpg" alt="Contour 1">
-            <h3>Velvet Matte Liquid Mascara Copper Packing</h3>
-            <p>Plush and High Pigmented Formula- Soft Matte Lip Cream- Comfortable Long Lasting Liquid Lipstick</p>
+            <img src="images/mac3.jpg" alt="Contour 1">
+            <h3>M·A·CSTACK Legit Lift Lash Primer
+                12.25 KWD</h3>
+            <p>Conditioning Lash Primer, Stackable Volume/Length/Lift, Weightless
+                STARK STACK</p>
             <div class="price">₱139.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/may4.jpg" alt="Blush 2">
-            <h3>Maybelline Hypercurl Mascara </h3>
-            <p>Soft and supple, velvety mist feeling, one swipe to enjoy the silky smooth and soft</p>
+            <img src="images/mac4.jpg" alt="Blush 2">
+            <h3>M·A·CSTACK MICRO MASCARA / LOVESTRUCK LUCK
+                13.50 KWD </h3>
+            <p>Natural To Next-Level Volume, Precise/Controlled Application, Special-Edition Packaging
+                Black Stack</p>
             <div class="price">₱150.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/may5.jpg" alt="Blush & Contour 3">
-            <h3>Maybelline Falsies Lash Lift Mascara </h3>
-            <p>Highly saturated and long-lasting factors are carefully researched to lock in the base color and retain the high definition, sweet and tender color.</p>
+            <img src="images/mac5.jpg" alt="Blush & Contour 3">
+            <h3>Lash Dry Shampoo Mascara Refresher
+                10.00 KWD</h3>
+            <p>Lash Topcoat, Volumizes/Softens Mascara, Clump-Resistant
+                Refreshing Black.</p>
             <div class="price">₱250.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/may6.jpg" alt="palette 3">
-            <h3>Long-lasting waterproof 3 in 1 black eye shadow mascara  </h3>
-            <p>Excellent Blur Matte effect breaks the ordinary velvet matte finish, new Airy-lip Sensation, still mellow pigmented and long-lasting! Will soon lead the trend of blur tint</p>
+            <img src="images/mac7.jpg" alt="palette 3">
+            <h3>In Extreme Dimension 3D Black Lash Mascara
+                9.50 KWD </h3>
+            <p>Dramatic Volume, Extreme Length/Curl, Super-Black Formula
+                3D Black</p>
             <div class="price">₱370.00</div>
             <button>Add to Cart</button>
         </div>
         <!-- Added Products  kay para di boring bitch-->
         <div class="product">
-            <img src="images/may7.jpg" alt="Makeup Brush 4">
-            <h3>Maybelline Hypercurl Volume Express Waterproof Mascara</h3>
-            <p>Combined the lipstick with lip gloss, A highly pigmented, Long lasting lipstick with a velvety-matte finish</p>
+            <img src="images/mac8.jpg" alt="Makeup Brush 4">
+            <h3>Extended Play Gigablack Lash Mascara
+                7.75 KWD</h3>
+            <p>Defining, Warm Water Washable, Super Black
+                Extended Play Gigablack</p>
             <div class="price">₱155.00</div>
             <button>Add to Cart</button>
     </div>
     <div class="product">
-        <img src="images/may8.jpg" alt="Makeup Brush 4">
-        <h3>Maybelline Hyperlight Eyeliner</h3>
-        <p>Eyeliner BZ-1 Bronze Light Waterproof.</p>
+        <img src="images/mac11.jpg" alt="Makeup Brush 4">
+        <h3>M·A·CStack Waterproof Mascara
+            12.25 KWD</h3>
+        <p>Waterproof/Smudge-proof For 24 Hours, Natural To Next-Level Volume, Clump-Resistant
+            Black Stack</p>
         <div class="price">₱155.00</div>
         <button>Add to Cart</button>
 </div>
 </div>
 
 <div class="footer">
-    <p> Disney-prinsesa Joymay Anne</p>
+    <p>&copy; Disney-prinsesa Joymay Anne</p>
 </div>
 
 </body>

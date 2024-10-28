@@ -4,130 +4,150 @@ body {
     padding: 0;
     background: #e0f7fa; 
     background-image: url('backgroundimg.jpg');
+    background-size: cover;
     color: #333;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
+    animation: fadeIn 0.5s ease-in; /* Fade-in effect for the body */
 }
+
+/* Navbar Styles */
 .navbar {
-    background: #734d26;
-    box-shadow: 0 4px 8px rgba(194, 147, 147, 0.3);
-    position: sticky;
-    margin-top: -600px;
+    background: rgba(115, 77, 38, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(30px); /* Blur effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    position: fixed; /* Keep it fixed at the top */
     top: 0;
     width: 100%;
     display: flex;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
-    animation: slideDown 1s ease-out;
+    padding: 10px 2%; /* Reduced padding for smaller height */
     z-index: 1000;
+    transition: background 0.3s; /* Smooth background transition */
 }
+
+.navbar:hover {
+    background: rgba(225, 164, 104, 0.1);
+    backdrop-filter: blur(100px);
+}
+
+/* Adjust logo size */
 .logo {
-    font-size: 30px;
-    color: #fff;
-    text-shadow: 0 0 10px rgba(255, 105, 180, 0.7);
-    transition: transform 0.3s;
+    font-size: 1.5rem; /* Smaller logo font size */
 }
-.logo-img{
-    width:50px;
+
+.logo-img {
+    width: 50px; /* Smaller logo image */
+    margin-left: 20px;
 }
-.logo:hover {
-    transform: scale(1.1);
-}
-.navbar a {
+
+/* Adjust navbar links */
+.navbar a, .dropbtn {
     color: #fff;
     text-decoration: none;
-    padding: 12px 20px;
-    transition: background 0.3s, color 0.3s;
+    padding: 8px 15px; /* Adjusted padding for smaller size */
+    transition: background 0.3s, color 0.3s, transform 0.3s;
     border-radius: 5px;
-    position: relative;
     font-weight: 600;
+    font-size: 0.9rem; /* Smaller font size */
 }
-.navbar a:hover {
-    background:#773b02;
-    color: #fff;
+
+.navbar a:hover, .dropbtn:hover {
+    background: #773b02;
+    transform: translateY(-2px); /* Lift effect on hover */
 }
-.navbar a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 3px;
-    background:#c68a53;
-    transition: width 0.3s;
+
+/* Dropdown Styles */
+.dropdown-content {
+    background: rgba(115, 77, 38, 0.95); /* Semi-transparent for dropdown */
+    /* ... rest of your dropdown styles remain the same ... */
 }
-.navbar a:hover::after {
-    width: 100%;
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 8px 1%; /* Reduced padding for mobile */
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Adjust logo size for smaller screens */
+    }
+
+    .navbar a, .dropbtn {
+        font-size: 0.8rem; /* Smaller font size for links */
+    }
 }
+
+/* Dropdown Styles */
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 .dropbtn {
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    padding: 12px 20px;
+    background: transparent; /* Make button background transparent */
     cursor: pointer;
-    transition: background 0.3s, color 0.3s;
-    border-radius: 5px;
-    font-weight: 600;
+    border: none;
 }
-.dropdown:hover .dropbtn {
-    background:#773b02;
-    color: #fff;
-}
+
 .dropdown-content {
-    display: none;
+    display: none; /* Hidden by default */
     position: absolute;
-    background:#734d26;
+    background: #734d26;
     min-width: 160px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     z-index: 1;
     border-radius: 5px;
     overflow: hidden;
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0; /* Start hidden */
+    transform: translateY(-10px); /* Slide in from above */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Slide down */
+}
+
 .dropdown-content a {
     color: #eee;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    transition: background 0.3s;
 }
+
 .dropdown-content a:hover {
-    background: #773b02;
+    background: #773b02; /* Change background on hover */
 }
-.dropdown:hover .dropdown-content {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
+
+/* Modal Styles */
 .modal {
-    display: block; 
+    display: flex; 
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(0,0,0,0.5);
     animation: fadeIn 0.5s ease-out;
+    overflow: auto;
 }
+
 .modal-content {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #fff;
-    margin: 10% auto;
-    padding: 30px;
+    margin: 5% auto;
+    padding: 2rem;
     border-radius: 16px;
     width: 90%;
     max-width: 500px;
@@ -135,88 +155,121 @@ body {
     animation: slideIn 0.5s ease-out;
     border: 2px solid #773b02;
 }
-.modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #773b02;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-}
+
 .modal-header h2 {
-    margin: 0 200px;
+    margin: 0 auto;
     color: #773b02;
-    font-size: 28px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    animation: fadeInUp 0.5s ease-out; /* Animation for modal header */
 }
-.modal-close {
-    cursor: pointer;
-    font-size: 30px;
-    color: #773b02;
-    transition: color 0.3s;
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-.modal-close:hover {
-    color: #c68a53; /* Darker teal on hover */
+
+.modal-body label {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1rem;
 }
+
 .modal-body input {
-    width: calc(100% - 24px);
-    padding: 14px;
-    margin: 10px 0;
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
     border: 1px solid #af6219;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 1rem;
     box-sizing: border-box;
     transition: border-color 0.3s;
 }
+
 .modal-body input:focus {
-    border-color: #532901; /* Dark teal on focus */
+    border-color: #532901;
     outline: none;
 }
+
 .modal-body button {
-    background: #773b02; /* Dark teal button */
+    background: #773b02;
     border: none;
     color: #fff;
-    width: 100px;
-    margin-left: 200px;
-    padding: 16px;
-    font-size: 18px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
+    margin-top: 1rem;
 }
+
 .modal-body button:hover {
-    background: #6d4724; /* Darker teal on hover */
+    background: #6d4724;
+    transform: translateY(-2px); /* Lift effect on hover */
 }
-.forgotpassword{
-    margin-left: 290px;
-    font-size: larg;
+
+.forgotpassword {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    margin: 1rem 0;
 }
-        .forgotpassword:hover{
-            color:rgb(235, 15, 15)
-        }
-.icon{
-    font-size: larger;
+
+.forgotpassword:hover {
+    color: rgb(235, 15, 15);
+}
+
+/* Icon Styles */
+.icon {
+    font-size: 1.5rem;
     font-weight: 300;
-    margin-right: 20px;
+    margin: 0.5rem;
 }
-        .icon:hover{
-            color:rgb(0, 174, 255);
-        }
+
+.icon:hover {
+    color: rgb(0, 174, 255);
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .modal-content {
+        padding: 1.5rem;
+    }
+
+    .modal-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .modal-body button {
+        padding: 0.8rem;
+    }
+
+    .modal-body label {
+        font-size: 1rem;
+    }
+
+    .forgotpassword {
+        font-size: 0.9rem;
+    }
+}
+
+/* Animations */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
+
 @keyframes slideIn {
-    from {
-        transform: translateY(-30px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }

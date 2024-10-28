@@ -17,14 +17,14 @@
         <img src="images/logofinal.png" class="logo-img">
 </div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Foundations</a>
             <div class="dropdown-content">
-                <a href="rare.html">Rare Beauty</a>
-                <a href="fenty.html">Fenty</a>
-                <a href="chanel.html">Chanel</a>
-                <a href="dior.html">Dior</a>
+                <a href="rare.php">Rare Beauty</a>
+                <a href="fenty.php">Fenty</a>
+                <a href="chanel.php">Chanel</a>
+                <a href="dior.php">Dior</a>
             </div>
         </div>
     </div>

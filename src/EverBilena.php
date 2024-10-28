@@ -15,14 +15,14 @@
 <div class="navbar">
     <div class="logo">Palette & Contour</div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Products</a>
             <div class="dropdown-content">
-			    <a href="DizonRacelMae.html">Palette & Contour</a>
-                <a href="EverBilena.html">Ever Bilena</a>
-                <a href="Sacelady.html">Sace Lady</a>
-                <a href="Nars.html">NARS</a>
+			    <a href="DizonRacelMae.php">Palette & Contour</a>
+                <a href="EverBilena.php">Ever Bilena</a>
+                <a href="Sacelady.php">Sace Lady</a>
+                <a href="Nars.php">NARS</a>
             </div>
         </div>
     </div>

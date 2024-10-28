@@ -1,3 +1,15 @@
+<?php
+// Start the session
+session_start();
+
+// Check if the user is logged in
+if (!isset($_SESSION['email'])) {
+    // Redirect to the login page if not logged in
+    header('Location: Login.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +28,18 @@
         <img src="images/logofinal.png" class="logo-img">
 </div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
-            <a href="#products" class="dropbtn">Products</a>
+            <a href="#products" class="dropbtn">Foundations</a>
             <div class="dropdown-content">
-                <a href="#">Foundation</a>
-                <a href="#">Mascara</a>
-                <a href="#">Lipstick</a>
-                <a href="#">Palette</a>
-                <a href="#">Eyeliner</a>
+            <?php if (isset($_SESSION['email'])): ?>
+                    <a href="DizonRacelMae.php">Contour</a>
+                    <a href="JoymayAnneLador.php">Mascara</a>
+                    <a href="BarolaSamantha.php">Foundation</a>
+                    <a href="Sambayon.php">Lipstick</a>
+                <?php else: ?>
+                    <p>Please log in to view products.</p>
+                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -42,7 +57,7 @@
 <div class="feature">
     <div class="feature-img">
         <img src="images/rare.jpg">
-        <a href="rare.html">
+        <a href="rare.php">
             <img src="images/rbf.jpg"  class="hover-img">
         </a>
     </div>
@@ -50,7 +65,7 @@
 <div class="feature">
     <div class="feature-img">
         <img src="images/fenty.jpg">
-        <a href="fenty.html">
+        <a href="fenty.php">
             <img src="images/fbf.jpg"  class="hover-img">
         </a>
     </div>
@@ -58,7 +73,7 @@
 <div class="feature">
     <div class="feature-img">
         <img src="images/chanel.jpg">
-        <a href="chanel.html">
+        <a href="chanel.php">
             <img src="images/chanelf.jpg"  class="hover-img">
         </a>
     </div>
@@ -66,7 +81,7 @@
 <div class="feature">
     <div class="feature-img">
         <img src="images/dior.jpg">
-        <a href="dior">
+        <a href="dior.php">
             <img src="images/diorf.jpg"  class="hover-img">
         </a>
     </div>

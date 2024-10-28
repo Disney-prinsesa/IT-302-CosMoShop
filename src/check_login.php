@@ -1,8 +1,8 @@
 <?php
-    // Check if session is not started, then start the session
-    if (session_status() === PHP_SESSION_NONE) {
-        session_start();
-    }
+// Check if session is not started, then start the session
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 // Initialize an array to hold errors
 $errors = [];
@@ -15,7 +15,6 @@ $dbname = "comshop"; // Ensure this is the correct database name (check in phpMy
 
 // Create the MySQL connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-
 // Check the connection to ensure it's working
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -26,6 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize input to prevent SQL Injection
     $email = $conn->real_escape_string($_POST['email']);
     $passwordInput = $conn->real_escape_string($_POST['password']);
+
+    // Check if the math solution is correct
+    if (!isset($_SESSION['math_answer']) || $_POST['math_solution'] != $_SESSION['math_answer']) {
+        $errors[] = "Incorrect answer to the math problem.";
+    }
 
     // Fetch the user from the `users` table using the provided email
     $sql = "SELECT * FROM users WHERE email='$email'";
@@ -40,9 +44,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Successful login, set session variables for the user
             $_SESSION['username'] = $user['username'];
             $_SESSION['email'] = $user['email'];
+            $_SESSION['success_login'] = "You have successfully logged in!";
 
             // Redirect to a homepage or user dashboard after successful login
-            header("Location: BarolaCamilleindex.html"); // Change this to your dashboard or home page
+            header("Location: BarolaCamilleindex.php"); // Change this to your dashboard or home page
             exit();
         } else {
             // Password is incorrect

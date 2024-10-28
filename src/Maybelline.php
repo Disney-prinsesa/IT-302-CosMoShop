@@ -13,16 +13,16 @@
 </head>
 <body>
 <div class="navbar">
-    <div class="logo">O Two O</div>
+    <div class="logo">Maybelline</div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Products</a>
             <div class="dropdown-content">
-			    <a href="Sambayon.html">Mascara</a>
-                <a href="MAC  Cosmetics.html">MAC Cosmetic</a>
-                <a href="O TWO O.html">O TWO</a>
-                <a href="Maybelline.html">Maybelline</a>
+			    <a href="JoymayAnneLador.php">Mascara</a>
+                <a href="MAC  Cosmetics.php">MAC Cosmetic</a>
+                <a href="O TWO O.php">O TWO</a>
+                <a href="Maybelline.php">Maybelline</a>
             </div>
         </div>
     </div>
@@ -39,66 +39,66 @@
 <div id="products" class="container">
     <div class="products">
         <div class="product">
-            <img src="images/ot1.jpg" alt="Palette 1">
-            <h3>Maybelline New York Lash Sensational Sky High Washable Eyelash Mascara Makeup</h3>
-            <p>Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Very Black, 7.2 ml. </p>
-            <div class="price">₱350.00</div>
+            <img src="images/may-1.jpg" alt="Palette 1">
+            <h3>Lash Sensational Sky High Mascarak</h3>
+            <p>Lash Sensational Sky High Volumising and Lengthening Mascara - Cosmic Black 7.2ml. </p>
+            <div class="price">₱290.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/OT9.jpg" alt="Palette 1">
-            <h3>O.TWO.O Gold Embroidery Mascara</h3>
-            <p>Eyeliner Pen Lasting Waterproof Long Classic Black Easy to Wear Eye Makeup.</p>
+            <img src="images/may2.jpg" alt="Palette 1">
+            <h3>Maybelline Lash Sensational Sky High Mascara </h3>
+            <p> Mascara Waterproof 6 mL - Smudge-proof Long Lasting Make Up.</p>
             <div class="price">₱300.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/ot3.jpg" alt="Contour 1">
-            <h3>O.TWO.O Liquid Eyelinerss Waterproof</h3>
-            <p>Precise and Quick Drying with an Ultra-fine Brush 9084.</p>
+            <img src="images/may3.jpg" alt="Contour 1">
+            <h3>Velvet Matte Liquid Mascara Copper Packing</h3>
+            <p>Plush and High Pigmented Formula- Soft Matte Lip Cream- Comfortable Long Lasting Liquid Lipstick</p>
             <div class="price">₱139.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/ot4.jpg" alt="Blush 2">
-            <h3>Misty Cream Velvet eyeliner Mud </h3>
-            <p>Eye Liner Pen 4 Colors 1.0mm Ultra-fine Smooth Waterproof White K4.</p>
+            <img src="images/may4.jpg" alt="Blush 2">
+            <h3>Maybelline Hypercurl Mascara </h3>
+            <p>Soft and supple, velvety mist feeling, one swipe to enjoy the silky smooth and soft</p>
             <div class="price">₱150.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/ot5.jpg" alt="Blush & Contour 3">
-            <h3>O TWO O Lash Infused With Fibers</h3>
-            <p>Sensational Sky High Mascara Waterproof O.24oz For Long Full Lashes.</p>
+            <img src="images/may5.jpg" alt="Blush & Contour 3">
+            <h3>Maybelline Falsies Lash Lift Mascara </h3>
+            <p>Highly saturated and long-lasting factors are carefully researched to lock in the base color and retain the high definition, sweet and tender color.</p>
             <div class="price">₱250.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/ot6.jpg" alt="palette 3">
-            <h3>Pro-blur Airy Velvet Matte eyeliner</h3>
-            <p>Excellent Blur Matte effect breaks the ordinary velvet matte finish, new Airy-eye Sensation, still mellow pigmented and long-lasting! Will soon lead the trend of blur tint</p>
+            <img src="images/may6.jpg" alt="palette 3">
+            <h3>Long-lasting waterproof 3 in 1 black eye shadow mascara  </h3>
+            <p>Excellent Blur Matte effect breaks the ordinary velvet matte finish, new Airy-lip Sensation, still mellow pigmented and long-lasting! Will soon lead the trend of blur tint</p>
             <div class="price">₱370.00</div>
             <button>Add to Cart</button>
         </div>
         <!-- Added Products  kay para di boring bitch-->
         <div class="product">
-            <img src="images/ot7.jpg" alt="Makeup Brush 4">
-            <h3>O TWO O Hyperlight Eyeliner</h3>
-            <p> A highly pigmented, Long lasting eyeliner with a velvety-matte finish</p>
+            <img src="images/may7.jpg" alt="Makeup Brush 4">
+            <h3>Maybelline Hypercurl Volume Express Waterproof Mascara</h3>
+            <p>Combined the lipstick with lip gloss, A highly pigmented, Long lasting lipstick with a velvety-matte finish</p>
             <div class="price">₱155.00</div>
             <button>Add to Cart</button>
     </div>
     <div class="product">
-        <img src="images/OT8.jpg" alt="Makeup Brush 4">
-        <h3>O TWO O Hypercurl Mascara</h3>
-        <p>Combined the lipstick with lip gloss, A highly pigmented, Long lasting lipstick with a velvety-matte finish</p>
+        <img src="images/may8.jpg" alt="Makeup Brush 4">
+        <h3>Maybelline Hyperlight Eyeliner</h3>
+        <p>Eyeliner BZ-1 Bronze Light Waterproof.</p>
         <div class="price">₱155.00</div>
         <button>Add to Cart</button>
 </div>
 </div>
 
 <div class="footer">
-    <p>&copy; Disney-prinsesa Joymay</p>
+    <p> Disney-prinsesa Joymay Anne</p>
 </div>
 
 </body>

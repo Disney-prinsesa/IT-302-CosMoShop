@@ -16,15 +16,15 @@
     <div class="logo">
         <img src="images/logofinal.png" class="logo-img">
 </div>
-<div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+    <div class="navbar-links">
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Foundations</a>
             <div class="dropdown-content">
-                <a href="rare.html">Rare Beauty</a>
-                <a href="fenty.html">Fenty</a>
-                <a href="chanel.html">Chanel</a>
-                <a href="dior.html">Dior</a>
+                <a href="rare.php">Rare Beauty</a>
+                <a href="fenty.php">Fenty</a>
+                <a href="chanel.php">Chanel</a>
+                <a href="dior.php">Dior</a>
             </div>
         </div>
     </div>
@@ -42,27 +42,27 @@
 <div id="products" class="container"></div>
     <div class="products">
         <div class="product">
-            <img src="images/rb1.jpg" alt="Foundation 1">
-            <h3>Liquid Touch Weightless Foundation</h3>
-            <div class="price">₱750.00</div>
+            <img src="images/fb1.jpg" alt="Foundation 1">
+            <h3>Fenty Beauty Pro Filt'r Soft Matte Longwear Liquid Foundation</h3>
+            <div class="price">₱550.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/rb2.jpg" alt="Foundation 2">
-            <h3>Positive Light Tinted Foundation</h3>
-            <div class="price">₱1,200.00</div>
+            <img src="images/fb2.jpg" alt="Foundation 2">
+            <h3>Eaze Drop Skin Tint</h3>
+            <div class="price">₱1,230.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/rb3.jpg" alt="Concealer 1">
-            <h3>Liquid Touch Foundation</h3>
-            <div class="price">₱670.00</div>
+            <img src="images/fb3.jpg" alt="Concealer 1">
+            <h3>Eaze Drop Blur + Smooth Foundation Stick</h3>
+            <div class="price">₱880.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/rb4.jpg" alt="Concealer 1">
-            <h3>Scoop and Dupe Foundation</h3>
-            <div class="price">₱670.00</div>
+            <img src="images/fb4.jpg" alt="Concealer 1">
+            <h3>Pro Filter Soft Matte Longwear Foundation</h3>
+            <div class="price">₱590.00</div>
             <button>Add to Cart</button>
         </div>
 

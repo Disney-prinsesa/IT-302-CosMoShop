@@ -13,16 +13,16 @@
 </head>
 <body>
 <div class="navbar">
-    <div class="logo">Lipstick</div>
+    <div class="logo">Palette & Contour</div>
     <div class="navbar-links">
-        <a href="BarolaCamilleindex.html">Home</a>
+        <a href="BarolaCamilleindex.php">Home</a>
         <div class="dropdown">
             <a href="#products" class="dropbtn">Products</a>
             <div class="dropdown-content">
-			    <a href="Sambayon.html">Lipstick</a>
-                <a href="h.html">Hanke & Henry</a>
-                <a href="o.html">O Two O</a>
-                <a href="s.html">Sace Lady</a>
+			    <a href="Sambayon.php">Lipstick</a>
+                <a href="h.php">Hanke & Henry</a>
+                <a href="o.php">O Two O</a>
+                <a href="s.php">Sace Lady</a>
             </div>
         </div>
     </div>
@@ -39,53 +39,53 @@
 <div id="products" class="container">
     <div class="products">
         <div class="product">
-            <img src="images/hlip8.jpg" alt="Lipstick 1">
-            <h3>Pro-juicy Watery Lipstick </h3>
-            <p>Pro upgraded version of  lipstick, which breaks through the limit of watery and provides high-impact Korean juicy jelly lips. Rich and juicy, but with bare lip sensation.</p>
+            <img src="images/s.jpg" alt="Palette 1">
+            <h3>SACE LADY Waterproof High Pigmented Lipstick</h3>
+            <p>Tinted lip balms give you just enough wash of color without drying out your lips, it effectively softens and moisturizes dry lips and let you lip charm and attractive.<p>
             <div class="price">₱350.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/hlip2.jpg" alt="Lipstick 2">
-            <h3>Jelly Milk Pink Lipstick</h3>
-            <p>Smooth, moisturising lipstick that goes on very smoothly on the lips, with good colour adhesion, smooth and non-drying. Impressive shades that plump and glamour lips from any angle.</p>
-            <div class="price">₱300.00</div>
+            <img src="images/s2.jpg" alt="Palette 1">
+            <h3>OhMyKiss Liquid Matte Lipstick </h3>
+            <p>This highly pigmented matte liquid lipstick goes on smooth. Water-proof, transfer-proof. </p>
+            <div class="price">₱250.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/hlip3.jpg" alt="Contour 1">
-            <h3>Colors Black Gold Tube Lipstick Long Lasting Matte Lipstick</h3>
-            <p>Natural, waterproof, lasting, easy-to-use lip makeup, matte color, smooth texture, delicate and smooth makeup and up dark color, brighten the skin, for lips to stretch.</p>
+            <img src="images/s1.webp" alt="Contour 1">
+            <h3>Soft Matte Liquid Lipstick</h3>
+            <p>Long lasting,transfer-proof,highly pigmented,matte finish the whole day, transfer-proof. Light and comfortable texture，make your lips feel nothing the whole day.</p>
             <div class="price">₱150.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/hlip4.jpg" alt="Blush 2">
-            <h3>JasmineMeetsRose Matte Lipstick </h3>
-            <p>Jasmine Mix Rose Essential Oil is added to the lipstick, select natural rose and jasmine petals to be distilled into essential oils, the cream is pressed through careful technology, adding essential oils.</p>
+            <img src="images/lip6.jpg" alt="Blush 2">
+            <h3>Macaron Lipstick </h3>
+            <p>Long Wearing and hydrating, soft and delicate, fresh and not greasy The design is compact and easy to carry.</p>
             <div class="price">₱200.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/hlip5.jpg" alt="Blush & Contour 3">
-            <h3>Kc Lipstick Matte Nude</h3>
-            <p>Not easy to decolorize, easy to color, natural three-dimensional, gives a little deviation measurement information.</p>
+            <img src="images/lip3.jpg" alt="Blush & Contour 3">
+            <h3>Sexy Red Pink Velvet Nude Lipsticks </h3>
+            <p>This Matte Liquid Lipstick which is not easy to discolor, tight fit like a tattoo, bright colors "tightly embrace" with delicate lips. </p>
             <div class="price">₱300.00</div>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="images/hlip6.jpg" alt="palette 3">
-            <h3>6.	PinkSweetie Liquid Matte Lipstick</h3>
-            <p>Soft like marshmallow, more lightweight and more breathable, create a fuzzy velvet matte lips, always be own sweetie, the smooth clay texture can create a fuzzy velvet matte finish after applying evenly.</p>
+            <img src="images/lip4.jpg" alt="palette 3">
+            <h3>SACE LADY Liquid Lipstick 12 Hours Matte Lip</h3>
+            <p>Matte Lipstick, delivers high-impact color with an ultra-comfortable soft wear. The thick matte texture, contains lip care ingredients, both pigmented and lip protection.</p>
             <div class="price">₱350.00</div>
             <button>Add to Cart</button>
         </div>
         <!-- Added Products  kay para di boring bitch-->
         <div class="product">
-            <img src="images/hlip7.jpg" alt="Makeup Brush 4">
-            <h3>JC Soft Matte Liquid Lipstick</h3>
-            <p>This highly pigmented matte liquid lipstick goes on smooth,.Water-proof,transfer-proof. It has Vitamin E which moisturizes the skin on the lips. </p>
-            <div class="price">₱155.00</div>
+            <img src="images/lip1.jpg" alt="Makeup Brush 4">
+            <h3>Karl Lipstick Misty Kiss Lock</h3>
+            <p>Long Wearing, smooth , water proof, Matte, non stick cups and colors for choose, suitable for all skin tones.Ink your lips in gorgeous, matte lip color</p>
+            <div class="price">₱200.00</div>
             <button>Add to Cart</button>
     </div>
 </div>
